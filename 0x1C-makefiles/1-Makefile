@@ -1,0 +1,7 @@
+CC := gcc 
+SRC := main.c school.c 
+
+school: $(src) 
+	$(CC) $(SRC) -0 school 
+all: school 
+.PHONY: all 
