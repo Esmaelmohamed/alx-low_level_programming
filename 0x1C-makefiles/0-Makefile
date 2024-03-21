@@ -3,5 +3,4 @@ school:
 
 all: school
 
-clean:
-    rm -f school
+
